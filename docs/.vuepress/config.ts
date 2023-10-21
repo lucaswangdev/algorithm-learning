@@ -9,8 +9,8 @@ export default defineUserConfig({
   description: '算法学习，JavaScript，前端',
   theme: defaultTheme({
     navbar: [
-      { text: '首页', link: '/' },
-      // { text: '指南', link: '/guide/' },
+      { text: '指南', link: '/' },
+      { text: '算法题目', link: '/leetcode/' },
     ],
     sidebar: [
       // SidebarItem
@@ -35,6 +35,14 @@ export default defineUserConfig({
           //   link: 'https://github.com',
           //   children: [],
           // },
+        ],
+      },
+      {
+        text: '算法题目',
+        link: '/leetcode/',
+        collapsible: true,
+        children: [
+          '/leetcode/add-two-numbers.md',
         ],
       },
     ],
