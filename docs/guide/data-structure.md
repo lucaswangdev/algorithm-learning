@@ -1,5 +1,12 @@
 # 数据结构
 
+- 数组、字符串 / Array & String 
+- 链表 / Linked-list
+- 栈 / Stack
+- 队列 / Queue 
+- 双端队列 / Deque 
+- 树 / Tree
+
 ## 列表
 
 ### 定义

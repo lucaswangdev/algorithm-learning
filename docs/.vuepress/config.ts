@@ -43,6 +43,7 @@ export default defineUserConfig({
         collapsible: true,
         children: [
           '/leetcode/add-two-numbers.md',
+          '/leetcode/valid-anagram.md',
         ],
       },
     ],
