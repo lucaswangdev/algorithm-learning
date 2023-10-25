@@ -44,6 +44,7 @@ export default defineUserConfig({
         children: [
           '/leetcode/add-two-numbers.md',
           '/leetcode/valid-anagram.md',
+          '/leetcode/longest-substring-without-repeating-characters.md',
         ],
       },
     ],
